@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #d9f1f3;
 }
 
 .container {
@@ -19,7 +19,7 @@ body {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(14, 1, 1, 0.1);
     width: 300px;
 }
 
@@ -40,18 +40,19 @@ input,
 button {
     width: 100%;
     padding: 10px;
+    /* Padding igual para input e button */
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #bfc9db;
     border-radius: 10px;
 }
 
 button {
-    background-color: #007bff;
+    background-color: #1a4663;
     color: white;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #66989c;
 }
